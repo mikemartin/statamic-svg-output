@@ -8,8 +8,9 @@ Render the output of any SVG file in your asset folder using the ID.
 
 ## Parameters
 
-ID - The ID of the file in your asset folder
-Class - Allows you to add a class to the tag
+- **ID** - The ID of the file in your asset folder
+
+- **Class** - Allows you to add a class to the tag
 
 ## Example
 
