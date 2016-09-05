@@ -1,11 +1,11 @@
 <?php
 
-namespace Statamic\Addons\RawAsset;
+namespace Statamic\Addons\SvgOutput;
 
 use Statamic\API\Asset;
 use Statamic\Extend\Tags;
 
-class RawAssetTags extends Tags
+class SvgOutputTags extends Tags
 {
     public function index()
     {

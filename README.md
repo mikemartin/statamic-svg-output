@@ -1,10 +1,10 @@
-# Raw Asset Tag ![Statamic 2.0](https://img.shields.io/badge/statamic-2.0-blue.svg?style=flat-square)
+# SVG Output Tag ![Statamic 2.0](https://img.shields.io/badge/statamic-2.0-blue.svg?style=flat-square)
 
-Render the output of any file in your asset folder using the ID.
+Render the output of any SVG file in your asset folder using the ID.
 
 ## Installation
 1. Copy over the files into the `site` folder.
-2. Output the raw asset using the new `raw_asset` tag!
+2. Output the raw SVG asset using the new `svg_output` tag!
 
 ## Parameters
 
@@ -14,7 +14,7 @@ Class - Allows you to add a class to the tag
 ## Example
 
 ```
-{{ raw_asset id="{id}" class="class-name" }}
+{{ svg_output id="{id}" class="class-name" }}
 ```
 
 ```

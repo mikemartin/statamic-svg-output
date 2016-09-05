@@ -1,6 +1,6 @@
-name: Raw Assets
+name: SVG Output
 version: 1.0.0
-description: Render the raw output of an asset by ID.
+description: Render the raw output of an SVG asset by ID.
 url: mike-martin.ca
 developer: Mike Martin
 developer_url: mike-martin.ca
