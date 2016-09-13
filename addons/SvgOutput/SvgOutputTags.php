@@ -11,9 +11,9 @@ class SvgOutputTags extends Tags
     {
         $asset = Asset::find($this->get('id'));
         $class = $this->get('class');
-        $output = $asset->disk()->get($asset->path());
-        $output = str_replace('<svg ', '<svg class="' . $class . '" ', $output);
-
+        $svg = $asset->disk()->get($asset->path());
+        // Append class to SVG
+        $output = preg_replace('/(<svg\s+.*?class=".*?)(".*)/','$1 '. $class .'$2',$svg);
         return $output;
     }
 
