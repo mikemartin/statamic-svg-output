@@ -9,7 +9,7 @@ class SvgOutputTags extends Tags
 {
     public function index()
     {
-        $asset = Asset::find($this->get('id'));
+        $asset = Asset::find($this->get('url'));
         $class = $this->get('class');
         $svg = $asset->disk()->get($asset->path());
         $pattern = '/(<svg\s+.*?class=".*?)(".*)/';
