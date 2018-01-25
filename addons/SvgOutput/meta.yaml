@@ -1,5 +1,5 @@
 name: SVG Output
-version: 1.0.0
+version: 1.1.0
 description: Render the raw output of an SVG asset by ID.
 url: mike-martin.ca
 developer: Mike Martin
